@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.android.zsdaking"
+  android:versionCode="1"
+  android:versionName="1.0">
+  <application android:label="@string/app_name" android:icon="@drawable/icon">
+    <activity android:name="home"
+      android:label="@string/app_name">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name="Activity2"
+      android:label="@string/diag">
+
+
+    </activity>
+    <activity android:name = "Activity3"
+      android:label="@string/listrel">
+
+      /</activity>
+      <activity android:name="Activity4"
+        android:label="@string/relatorio">
+
+
+      </activity>
+      <activity android:name="Activity5"
+        android:label="@string/login">
+
+
+      </activity>
+      <activity android:name="Activity6"
+        android:label="@string/opt">
+
+
+      </activity>
+            <activity android:name="Activity7"
+        android:label="@string/listquest">
+        
+
+      </activity>
+             <activity android:name="Activity8"
+        android:label="@string/quest">
+        
+
+      </activity>
+
+      <activity android:name="Activity9"
+        android:label="@string/listansw">
+        
+
+      </activity>
+      <activity android:name="Activityt"
+        android:label="@string/answ">
+        
+
+      </activity>
+
+
+    </application>
+  </manifest>

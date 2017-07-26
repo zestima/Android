@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StandingSick	</string>
+    <string name="diag">Diagnóstico </string>
+    <string name="listrel">Histórico de Relatórios   </string>
+    <string name="relatorio">Relatório   </string>
+    <string name="login">Acesso à administração 	</string>
+    <string name="opt">Opções para alterar	</string>
+    <string name="listquest">Lista de  perguntas	</string>
+    <string name = "quest">Alterar pergunta 	</string>
+    <string name="listansw">Lista de  respostas	</string>
+    <string name = "answ">Alterar resposta 	</string>
+    <string name="next">Próxima questão </string>
+    <string name = "other">Outra opção  </string>
+    <string name = "noreport">Não existem relatórios  </string>
+    <string name = "sendemail">Enviar relatório por email </string>
+    <string name="user">Username    </string>
+    <string name ="password">Password   </string>
+    <string name ="log">Login </string>
+    <string name="changequest">Alterar perguntas   </string>
+    <string name="changeansw">Alterar respostas   </string>
+    <string name ="change">Alterar   </string>
+    <string name="cancel">Cancelar  </string>
+    <string name="delete">Apagar relatório  </string>
+</resources>

@@ -1,0 +1,55 @@
+# view AndroidManifest.xml #generated:14
+-keep class com.android.zsdaking.Activity2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class com.android.zsdaking.Activity3 { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class com.android.zsdaking.Activity4 { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.android.zsdaking.Activity5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.android.zsdaking.Activity6 { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.android.zsdaking.Activity7 { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.android.zsdaking.Activity8 { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.android.zsdaking.Activity9 { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.android.zsdaking.Activityt { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class com.android.zsdaking.home { <init>(...); }
+
+# onClick res/layout/main2.xml #generated:52
+-keepclassmembers class * { *** action(...); }
+
+# onClick res/layout/main8.xml #generated:21
+# onClick res/layout/maint.xml #generated:21
+-keepclassmembers class * { *** alterar(...); }
+
+# onClick res/layout/main8.xml #generated:28
+# onClick res/layout/maint.xml #generated:28
+-keepclassmembers class * { *** cancel(...); }
+
+# onClick res/layout/main4.xml #generated:28
+-keepclassmembers class * { *** delete(...); }
+
+# onClick res/layout/main4.xml #generated:20
+-keepclassmembers class * { *** sendEmail(...); }
+
+# onClick res/layout/main.xml #generated:16
+# onClick res/layout/main.xml #generated:23
+# onClick res/layout/main.xml #generated:8
+# onClick res/layout/main5.xml #generated:27
+# onClick res/layout/main6.xml #generated:15
+# onClick res/layout/main6.xml #generated:7
+-keepclassmembers class * { *** startActivity(...); }
+
