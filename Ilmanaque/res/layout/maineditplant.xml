@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+	
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+	
+		<TableLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:stretchColumns="1">
+		
+			<TextView  
+			android:layout_gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:textSize="24sp"
+			android:text="Alterar"/>
+			
+			<ImageView
+			android:id="@+id/ivPe"
+			android:layout_width="250dp"
+			android:layout_height="250dp"
+			android:layout_gravity="center"
+			android:src="@drawable/ic_launcher" />
+			
+			<TextView  
+			android:layout_gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="Sementeira"/>
+			
+			<EditText android:id="@+id/plantPe"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+		  
+			<TextView  
+			android:layout_gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="Localização"/>
+			
+			<EditText android:id="@+id/locPe"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+
+			<TextView  
+			android:layout_gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="Data"/>
+			
+			<EditText android:id="@+id/datePe"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+			
+			<TextView  
+			android:layout_gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="Quantidade"/>
+			
+			<EditText android:id="@+id/quantPe"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+			
+			<TextView  
+			android:layout_gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="Observações"/>
+			
+			<EditText android:id="@+id/obsPe"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+			
+			<LinearLayout
+            android:id="@+id/linearLayout12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+			
+				<Button
+				android:id="@+id/photoPe"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Tirar fotografia" />
+				
+				<Button
+				android:id="@+id/photo2Pe"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Escolher fotografia" />
+							
+				<Button
+				android:id="@+id/editPe"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Alterar"/>
+				
+				<Button
+				android:id="@+id/delPe"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Apagar"/>
+				
+			</LinearLayout>
+			
+		</TableLayout>
+	
+	</ScrollView>
+  
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+<TableLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:stretchColumns="1">
+		
+		
+			
+			<TextView  
+			android:layout_gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="Nome da Semente:"/>
+			
+			<TextView android:id="@+id/semen"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+			
+				<TextView  
+			android:layout_gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="Descrição:"/>
+			
+			<TextView android:id="@+id/desc"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+			
+			<TextView  
+			android:layout_gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="Meses de plantação:"/>
+			
+			<TextView android:id="@+id/meses"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+			
+				<TextView  
+			android:layout_gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="Dias de crescimento:"/>
+			
+			<TextView android:id="@+id/dias"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+			
+				<TextView  
+			android:layout_gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="Ph ideal:"/>
+			
+			<TextView android:id="@+id/ph"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+			
+
+			
+			
+		</TableLayout>
+
+  
+</LinearLayout>

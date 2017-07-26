@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+	
+		<TableLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:stretchColumns="1">
+			
+			<TextView  
+			android:layout_gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="Título da Nova Tarefa"/>
+			
+			<EditText android:id="@+id/titleTa"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+
+			<TextView  
+			android:layout_gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="Data dd-mm-yyyy"/>
+			
+			<EditText android:id="@+id/dateTa"
+			android:layout_width="fill_parent" 
+			android:inputType="date"
+			android:layout_height="wrap_content"/>
+
+			<TextView
+				android:layout_gravity="center"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Descrição"/>
+
+			<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:fillViewport="true"
+				android:layout_weight ="1"
+				android:isScrollContainer="false">>
+
+			<EditText android:id="@+id/descTa"
+				android:layout_width="fill_parent"
+				android:layout_height="0dp"
+				android:gravity="top|left"
+				android:inputType="textCapSentences|textMultiLine"
+				android:layout_weight ="1"
+			android:hint="Qualquer observação que ache necessária, como as horas, o local ou ferramentas a levar."/>
+
+			</ScrollView>
+
+			<LinearLayout
+           	 	android:id="@+id/linearLayout11"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:orientation="vertical"
+				android:layout_gravity="bottom"
+				>
+							
+				<Button
+				android:id="@+id/addTa"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Adicionar"
+					android:layout_weight ="1"/>
+				
+			</LinearLayout>
+		
+		</TableLayout>
+	
+
+  
+</LinearLayout>

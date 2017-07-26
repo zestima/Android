@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ImageView
+		android:id="@+id/imageMain"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_gravity="top"
+		android:layout_weight="1"
+		android:src="@drawable/corn"
+		android:adjustViewBounds="false"
+		android:scaleType="fitXY"
+	/>
+
+	<ScrollView 
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:fillViewport="true"
+		android:layout_weight="1"
+		android:layout_gravity="top"
+		android:stretchColumns="2">
+
+		<TableLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:stretchColumns="2" >
+
+		    <ListView
+		        android:id="@android:id/list"
+		        android:layout_width="match_parent"
+		        android:layout_height="109dp"
+		        android:background="#123219" >
+		    </ListView>
+
+		    <Button
+		        android:id="@+id/semen"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Sementeiras Info" />
+
+		</TableLayout>
+
+	</ScrollView>
+
+	<TableLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:stretchColumns="1"
+		android:layout_gravity="bottom"
+		android:layout_weight="1">
+
+		<Button
+			android:id="@+id/sementeira"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Sementeiras"/>
+
+		<Button
+			android:id="@+id/tarefa"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Tarefas"/>
+
+		<Button
+			android:id="@+id/gps"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="GPS"/>
+
+	</TableLayout>
+
+
+</LinearLayout>
